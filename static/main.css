@@ -1,6 +1,6 @@
 /* Feel free to modify anything in this file.*/
 html body {
-	background-color: #ecedd5;
+  background-color: #ecedd5;
 }
 
 header {
@@ -12,7 +12,17 @@ header {
 	justify-content: left;
 	padding-left: 40px;
 	padding-top: 20px;
-	padding-bottom: 20px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.vendor-text1{
+  font-size: medium;
+  width: 400px;
+}
+
+.vendor-text{
+  font-size: medium;
 }
 
 .vendor-photo {
@@ -21,12 +31,21 @@ header {
 	padding-right: 20px;
 }
 
+.add-cart{
+  right: 100;
+  padding-left: 45px;
+}
+
 .vendor-book-button {
-	font-size: 2em;
+  font-size: 2em;
 }
 
 .content-pane {
   padding: 40px;
+}
+
+img{
+  margin: 15px;
 }
 
 .fa-stack[data-count]:after{
